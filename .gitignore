@@ -1,0 +1,13 @@
+# Sensitive data
+.env
+config.json
+keys.json
+secrets/
+
+# Python clutter
+__pycache__/
+*.pyc
+.DS_Store
+
+# Logs (You don't want to push your daily operational logs)
+logs/
