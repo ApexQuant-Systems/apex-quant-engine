@@ -18,12 +18,10 @@ class ScoringEngine:
         df['avg_body_size'] = df['body_size'].rolling(window=20).mean()
         df['avg_volume'] = df['volume'].rolling(window=20).mean()
 
-        # --- NEW: MACRO DIRECTIONAL FILTER (200 EMA) ---
-        # Calculate the 200-period Exponential Moving Average
+        # --- MACRO DIRECTIONAL FILTER (200 EMA) ---
         df.ta.ema(length=200, append=True)
         ema_column = 'EMA_200'
         
-        # Determine current trend relationship
         # True if price is above 200 EMA (Bullish Macro), False if below (Bearish Macro)
         df['Above_200_EMA'] = df['close'] > df[ema_column]
 
@@ -31,7 +29,6 @@ class ScoringEngine:
         df['setup_score'] = 0
 
         # --- SCORING MATRIX ---
-        
         # Criteria 1: Volume Expansion (Max 40 points)
         df.loc[df['volume'] > (df['avg_volume'] * 2.0), 'setup_score'] += 40
         df.loc[(df['volume'] > (df['avg_volume'] * 1.5)) & (df['volume'] <= (df['avg_volume'] * 2.0)), 'setup_score'] += 20
@@ -45,12 +42,14 @@ class ScoringEngine:
             df.loc[df['Execution_Unlocked'] == True, 'setup_score'] += 20
 
         # --- FINAL AUTHORIZATION GATE ---
-        # We now require the score to be >= 80 AND the price must be above the 200 EMA for LONGS
-        # (Assuming our system is currently only looking for LONG setups as built in the truth machine)
+        # 1. Score >= 80 (Momentum/Volume is present)
+        # 2. Above 200 EMA (Macro Trend is Bullish)
+        # 3. Bullish Sweep is True (Liquidity was engineered and absorbed)
         
         df['Trade_Authorized'] = np.where(
             (df['setup_score'] >= self.minimum_authorization_score) & 
-            (df['Above_200_EMA'] == True), 
+            (df['Above_200_EMA'] == True) &
+            (df.get('Bullish_Sweep', False) == True), 
             True, 
             False
         )
