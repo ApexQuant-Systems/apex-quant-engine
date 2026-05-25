@@ -7,18 +7,21 @@ class QuantLogger:
         self.logger = logging.getLogger(name)
         self.logger.setLevel(logging.INFO)
         
+        # Failsafe: Ensure the logs directory exists at runtime
         os.makedirs("logs", exist_ok=True)
         
+        # Persistent log file handler
         handler = logging.FileHandler(f"logs/system_{datetime.now().strftime('%Y-%m-%d')}.log")
         formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         
+        # Avoid duplicate handlers if initialized multiple times
         if not self.logger.handlers:
             self.logger.addHandler(handler)
 
     def log(self, message):
-        print(message)
-        self.logger.info(message)
+        print(message)  # Real-time terminal output
+        self.logger.info(message)  # Persistent file logging
 
     def error(self, message):
         print(f"[-] ERROR: {message}")
