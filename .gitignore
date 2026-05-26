@@ -1,13 +1,22 @@
-# Sensitive data
+# API Credentials & Local Environment Secrets
 .env
-config.json
-keys.json
+keys.py
 secrets/
 
-# Python clutter
+# Python Runtime Cache
 __pycache__/
 *.pyc
-.DS_Store
+*.pyo
+.pypy/
 
-# Logs (You don't want to push your daily operational logs)
-logs/
+# Quantitative Data and Local Ledger Databases
+storage/*.db
+storage/*.json
+storage/cold_storage/
+infrastructure/heartbeat.txt
+infrastructure/supervisor_log.txt
+infrastructure/incident_logs.txt
+
+# IDE Specific Configurations
+.vscode/
+.idea/

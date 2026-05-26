@@ -1,36 +1,43 @@
 import pandas as pd
-import pandas_ta as ta
-import numpy as np
 
-class ScoringEngine:
-    def __init__(self):
-        self.minimum_authorization_score = 40
+class ConcurrencyScoringEngine:
+    def __init__(self, target_threshold=70):
+        self.target_threshold = target_threshold
 
-    def score_displacement(self, df):
-        df['body_size'] = abs(df['close'] - df['open'])
-        df['avg_body_size'] = df['body_size'].rolling(window=20).mean()
-        df['avg_volume'] = df['volume'].rolling(window=20).mean()
-
-        df.ta.ema(length=200, append=True)
-        df['Above_200_EMA'] = df['close'] > df['EMA_200']
+    def calculate_execution_score(self, regime: str, structural_signals: dict, displacement_metrics: dict) -> dict:
+        """
+        Synthesizes multiple operational layers into a single deterministic conviction matrix.
+        Returns a payload containing the final score and an authorization flag.
+        """
+        score = 0
+        break_detected = structural_signals.get("high_signal", False) or structural_signals.get("low_signal", False)
         
-        df['setup_score'] = 0
+        # 1. Evaluate Environmental Foundation (Max Allocation: 30 Points)
+        if regime in ["EXPANSION", "TRENDING"]:
+            score += 30
+        elif regime == "CONSOLIDATION":
+            score += 10
+        else: # UNDETERMINED / NEUTRAL
+            score += 15
 
-        # Scoring Matrix
-        df.loc[df['volume'] > (df['avg_volume'] * 1.2), 'setup_score'] += 30
-        df.loc[df['body_size'] > (df['avg_body_size'] * 1.2), 'setup_score'] += 30
+        # 2. Evaluate Structural Context (Max Allocation: 40 Points)
+        if break_detected:
+            score += 40
 
-        # --- REGIME INTELLIGENCE INTEGRATION ---
-        # If the ADX trend is strong (Execution_Unlocked == True), give a 20 point bonus.
-        # If it is FALSE, the system will find it much harder to reach the 40-point threshold.
-        if 'Execution_Unlocked' in df.columns:
-            df.loc[df['Execution_Unlocked'] == True, 'setup_score'] += 20
+        # 3. Evaluate Momentum Confirmation (Max Allocation: 30 Points)
+        if displacement_metrics.get("displacement", False):
+            score += 30
+        else:
+            # Penalize the score heavily if structural breaks lack institutional backing
+            if break_detected:
+                score -= 20 
 
-        df['Trade_Authorized'] = np.where(
-            (df['setup_score'] >= self.minimum_authorization_score) & 
-            (df['Above_200_EMA'] == True) &
-            (df.get('Recent_Bullish_Sweep', False) == True), 
-            True, 
-            False
-        )
-        return df
+        # Ensure bounded boundaries [0, 100]
+        final_score = max(0, min(100, score))
+        authorized = final_score >= self.target_threshold
+
+        return {
+            "conviction_score": final_score,
+            "execution_authorized": authorized,
+            "threshold": self.target_threshold
+        }

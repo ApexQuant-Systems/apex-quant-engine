@@ -1,0 +1,207 @@
+2026-05-25 15:17:22,161 - INFO - --- INITIALIZING HISTORICAL RUN: data/BTC_USDT_1h.csv ---
+2026-05-25 15:17:22,624 - INFO - 
+==============================================
+2026-05-25 15:17:22,625 - INFO -       PRODUCTION BASELINE ALPHA REPORT v1.0   
+2026-05-25 15:17:22,625 - INFO - ==============================================
+2026-05-25 15:17:22,625 - INFO - Total Executions : 128
+2026-05-25 15:17:22,625 - INFO - Win Rate         : 26.6%
+2026-05-25 15:17:22,628 - INFO - Final Capital    : $14,751.69
+2026-05-25 15:17:22,628 - INFO - ==============================================
+
+2026-05-25 15:32:33,619 - INFO - 
+==============================================
+2026-05-25 15:32:33,619 - INFO -    INITIALIZING LIVE PRODUCTION ENGINE v1.0   
+2026-05-25 15:32:33,619 - INFO - ==============================================
+2026-05-25 15:32:33,619 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:32:35,665 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:32:49,785 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:32:51,845 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:33:06,866 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:33:08,893 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:33:22,869 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:33:24,886 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:33:39,989 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:33:42,039 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:33:56,149 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:33:58,161 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:34:13,177 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:34:15,182 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:34:29,267 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:34:31,290 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:34:46,400 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:38:08,889 - INFO - 
+==============================================
+2026-05-25 15:38:08,889 - INFO -    INITIALIZING LIVE PRODUCTION ENGINE v1.0   
+2026-05-25 15:38:08,889 - INFO - ==============================================
+2026-05-25 15:38:08,889 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:38:10,912 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:38:25,977 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:38:27,982 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:38:42,159 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:38:44,189 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:38:59,199 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:39:00,218 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:39:15,260 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:39:17,322 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:39:31,341 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:39:33,342 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:39:48,448 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:39:50,451 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:40:04,540 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:40:06,595 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:40:21,630 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:40:23,645 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:40:37,732 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:40:39,756 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:40:54,765 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:40:56,823 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 15:41:10,859 - INFO - [*] Scanning real-time market matrix for BTC_USDT...
+2026-05-25 15:41:12,890 - INFO - [+] Heartbeat pulsed successfully. System nominal.
+2026-05-25 16:30:59,994 - INFO - 
+==============================================
+2026-05-25 16:30:59,995 - INFO -    SYSTEM ACTIVE: LIVE MARKET INGESTION v1.0   
+2026-05-25 16:30:59,996 - INFO - ==============================================
+2026-05-25 16:30:59,996 - INFO - [*] Connecting to live exchange WebSocket feed...
+2026-05-25 16:31:00,833 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:32:00,285 - INFO - 
+⚡ [CANDLE CLOSED] | 16:31:00 | O: $77580.16 | H: $77589.92 | L: $77580.16 | C: $77589.27
+2026-05-25 16:33:00,284 - INFO - 
+⚡ [CANDLE CLOSED] | 16:32:00 | O: $77589.27 | H: $77589.92 | L: $77589.27 | C: $77589.92
+2026-05-25 16:36:51,675 - INFO - 
+==============================================
+2026-05-25 16:36:51,675 - INFO -    SYSTEM ACTIVE: STATEFUL DATA INGESTION v1.1 
+2026-05-25 16:36:51,675 - INFO - ==============================================
+2026-05-25 16:36:51,675 - INFO - [*] Memory State Array Initialized: maxlen=50
+2026-05-25 16:36:51,675 - INFO - [*] Connecting to live exchange WebSocket feed...
+2026-05-25 16:36:52,502 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:37:00,828 - INFO - 
+⚡ [CANDLE CLOSED] | 16:36:00 | O: $77622.75 | H: $77639.89 | L: $77622.75 | C: $77639.88
+2026-05-25 16:37:00,828 - INFO - [MEMORY] State array updated. Active Buffer Capacity: 1/50
+2026-05-25 16:38:00,817 - INFO - 
+⚡ [CANDLE CLOSED] | 16:37:00 | O: $77639.89 | H: $77639.89 | L: $77628.00 | C: $77628.00
+2026-05-25 16:38:00,817 - INFO - [MEMORY] State array updated. Active Buffer Capacity: 2/50
+2026-05-25 16:39:00,687 - INFO - 
+⚡ [CANDLE CLOSED] | 16:38:00 | O: $77628.00 | H: $77628.01 | L: $77626.74 | C: $77626.75
+2026-05-25 16:39:00,688 - INFO - [MEMORY] State array updated. Active Buffer Capacity: 3/50
+2026-05-25 16:40:02,929 - INFO - 
+==============================================
+2026-05-25 16:40:02,929 - INFO -    SYSTEM ACTIVE: LIVE ANALYTICAL ENGINE v1.2 
+2026-05-25 16:40:02,929 - INFO - ==============================================
+2026-05-25 16:40:02,930 - INFO - [*] Analytical Pipeline Linked: RegimeEngine loaded.
+2026-05-25 16:40:02,930 - INFO - [*] Connecting to live exchange WebSocket feed...
+2026-05-25 16:40:03,764 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:41:00,723 - INFO - 
+⚡ [CANDLE CLOSED] | 16:40:00 | O: $77626.75 | H: $77626.75 | L: $77626.74 | C: $77626.75
+2026-05-25 16:41:00,726 - INFO - [MEMORY] Buffering state matrix. Progress: 1/5 bars required for analytics.
+2026-05-25 16:42:00,503 - INFO - 
+⚡ [CANDLE CLOSED] | 16:41:00 | O: $77626.75 | H: $77626.75 | L: $77600.01 | C: $77612.31
+2026-05-25 16:42:00,504 - INFO - [MEMORY] Buffering state matrix. Progress: 2/5 bars required for analytics.
+2026-05-25 16:43:00,411 - INFO - 
+⚡ [CANDLE CLOSED] | 16:42:00 | O: $77612.31 | H: $77655.45 | L: $77612.30 | C: $77654.02
+2026-05-25 16:43:00,411 - INFO - [MEMORY] Buffering state matrix. Progress: 3/5 bars required for analytics.
+2026-05-25 16:44:00,296 - INFO - 
+⚡ [CANDLE CLOSED] | 16:43:00 | O: $77654.02 | H: $77654.02 | L: $77641.02 | C: $77641.03
+2026-05-25 16:44:00,296 - INFO - [MEMORY] Buffering state matrix. Progress: 4/5 bars required for analytics.
+2026-05-25 16:45:00,195 - INFO - 
+⚡ [CANDLE CLOSED] | 16:44:00 | O: $77641.03 | H: $77683.61 | L: $77641.03 | C: $77683.61
+2026-05-25 16:45:07,453 - ERROR - Network dropout caught in transport layer: 'ADX_14'
+2026-05-25 16:45:07,454 - INFO - [*] Reconnecting pipeline matrix in 5 seconds...
+2026-05-25 16:45:13,234 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:45:13,571 - INFO - 
+⚡ [CANDLE CLOSED] | 16:44:00 | O: $77641.03 | H: $77683.61 | L: $77641.03 | C: $77683.61
+2026-05-25 16:45:23,331 - ERROR - Network dropout caught in transport layer: 'ADX_14'
+2026-05-25 16:45:23,332 - INFO - [*] Reconnecting pipeline matrix in 5 seconds...
+2026-05-25 16:45:28,255 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:45:29,125 - INFO - 
+⚡ [CANDLE CLOSED] | 16:44:00 | O: $77641.03 | H: $77683.61 | L: $77641.03 | C: $77683.61
+2026-05-25 16:45:37,074 - ERROR - Network dropout caught in transport layer: 'ADX_14'
+2026-05-25 16:45:37,074 - INFO - [*] Reconnecting pipeline matrix in 5 seconds...
+2026-05-25 16:45:43,217 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:45:43,517 - INFO - 
+⚡ [CANDLE CLOSED] | 16:44:00 | O: $77641.03 | H: $77683.61 | L: $77641.03 | C: $77683.61
+2026-05-25 16:45:52,021 - ERROR - Network dropout caught in transport layer: 'ADX_14'
+2026-05-25 16:45:52,021 - INFO - [*] Reconnecting pipeline matrix in 5 seconds...
+2026-05-25 16:45:57,847 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:45:57,914 - INFO - 
+⚡ [CANDLE CLOSED] | 16:44:00 | O: $77641.03 | H: $77683.61 | L: $77641.03 | C: $77683.61
+2026-05-25 16:46:05,520 - ERROR - Network dropout caught in transport layer: 'ADX_14'
+2026-05-25 16:46:05,520 - INFO - [*] Reconnecting pipeline matrix in 5 seconds...
+2026-05-25 16:46:11,289 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:46:11,420 - INFO - 
+⚡ [CANDLE CLOSED] | 16:44:00 | O: $77641.03 | H: $77683.61 | L: $77641.03 | C: $77683.61
+2026-05-25 16:46:19,495 - ERROR - Network dropout caught in transport layer: 'ADX_14'
+2026-05-25 16:46:19,495 - INFO - [*] Reconnecting pipeline matrix in 5 seconds...
+2026-05-25 16:46:25,305 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:46:25,813 - INFO - 
+⚡ [CANDLE CLOSED] | 16:44:00 | O: $77641.03 | H: $77683.61 | L: $77641.03 | C: $77683.61
+2026-05-25 16:46:31,351 - ERROR - Network dropout caught in transport layer: 'ADX_14'
+2026-05-25 16:46:31,352 - INFO - [*] Reconnecting pipeline matrix in 5 seconds...
+2026-05-25 16:46:37,114 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:46:37,281 - INFO - 
+⚡ [CANDLE CLOSED] | 16:44:00 | O: $77641.03 | H: $77683.61 | L: $77641.03 | C: $77683.61
+2026-05-25 16:46:45,332 - ERROR - Network dropout caught in transport layer: 'ADX_14'
+2026-05-25 16:46:45,332 - INFO - [*] Reconnecting pipeline matrix in 5 seconds...
+2026-05-25 16:46:51,050 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:46:51,692 - INFO - 
+⚡ [CANDLE CLOSED] | 16:44:00 | O: $77641.03 | H: $77683.61 | L: $77641.03 | C: $77683.61
+2026-05-25 16:46:57,613 - ERROR - Network dropout caught in transport layer: 'ADX_14'
+2026-05-25 16:46:57,614 - INFO - [*] Reconnecting pipeline matrix in 5 seconds...
+2026-05-25 16:47:02,488 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:47:03,116 - INFO - 
+⚡ [CANDLE CLOSED] | 16:44:00 | O: $77641.03 | H: $77683.61 | L: $77641.03 | C: $77683.61
+2026-05-25 16:47:27,378 - INFO - 
+==============================================
+2026-05-25 16:47:27,378 - INFO -    SYSTEM ACTIVE: LIVE ANALYTICAL ENGINE v1.2 
+2026-05-25 16:47:27,378 - INFO - ==============================================
+2026-05-25 16:47:27,378 - INFO - [*] Analytical Pipeline Linked: RegimeEngine loaded.
+2026-05-25 16:47:27,378 - INFO - [*] Connecting to live exchange WebSocket feed...
+2026-05-25 16:47:28,159 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:48:00,874 - INFO - 
+⚡ [CANDLE CLOSED] | 16:47:00 | O: $77711.59 | H: $77739.85 | L: $77711.59 | C: $77732.03
+2026-05-25 16:48:00,874 - INFO - [MEMORY] Buffering state matrix. Progress: 1/20 bars required for indicator calculations.
+2026-05-25 16:49:00,786 - INFO - 
+⚡ [CANDLE CLOSED] | 16:48:00 | O: $77732.03 | H: $77740.97 | L: $77720.44 | C: $77740.96
+2026-05-25 16:49:00,787 - INFO - [MEMORY] Buffering state matrix. Progress: 2/20 bars required for indicator calculations.
+2026-05-25 16:50:00,678 - INFO - 
+⚡ [CANDLE CLOSED] | 16:49:00 | O: $77740.97 | H: $77776.01 | L: $77740.96 | C: $77775.72
+2026-05-25 16:50:00,679 - INFO - [MEMORY] Buffering state matrix. Progress: 3/20 bars required for indicator calculations.
+2026-05-25 16:50:56,211 - INFO - [*] Bootstrapping state memory matrix via historical REST API...
+2026-05-25 16:50:56,646 - INFO - [+] Memory warm-up complete. Seeded 49 structural candles instantly.
+2026-05-25 16:50:56,654 - INFO - 
+==============================================
+2026-05-25 16:50:56,654 - INFO -    SYSTEM ACTIVE: BOOTSTRAPPED ENGINE v1.4   
+2026-05-25 16:50:56,654 - INFO - ==============================================
+2026-05-25 16:50:56,655 - INFO - [*] Intelligence Pipeline Stack: [RegimeEngine] -> [StructureEngine]
+2026-05-25 16:50:56,655 - INFO - [*] Connecting to live exchange WebSocket feed...
+2026-05-25 16:50:57,470 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:51:00,599 - INFO - 
+⚡ [CANDLE CLOSED] | 16:50:00 | O: $77766.85 | H: $77766.85 | L: $77766.85 | C: $77766.85
+2026-05-25 16:51:00,652 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-25 16:51:00,656 - INFO - [MEMORY] Current Stateful Data Window: 50/50 bars tracked.
+2026-05-25 16:52:00,521 - INFO - 
+⚡ [CANDLE CLOSED] | 16:51:00 | O: $77766.84 | H: $77766.84 | L: $77717.47 | C: $77717.47
+2026-05-25 16:52:00,536 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-25 16:52:00,539 - INFO - [MEMORY] Current Stateful Data Window: 50/50 bars tracked.
+2026-05-25 16:53:00,440 - INFO - 
+⚡ [CANDLE CLOSED] | 16:52:00 | O: $77717.46 | H: $77738.90 | L: $77717.46 | C: $77729.11
+2026-05-25 16:53:00,456 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-25 16:53:00,460 - INFO - [MEMORY] Current Stateful Data Window: 50/50 bars tracked.
+2026-05-25 16:53:42,934 - INFO - [*] Bootstrapping state memory matrix via historical REST API...
+2026-05-25 16:53:43,310 - INFO - [+] Memory warm-up complete. Seeded 49 structural candles instantly.
+2026-05-25 16:53:43,313 - INFO - 
+==============================================
+2026-05-25 16:53:43,313 - INFO -    SYSTEM ACTIVE: MOMENTUM VALIDATION v1.5   
+2026-05-25 16:53:43,313 - INFO - ==============================================
+2026-05-25 16:53:43,313 - INFO - [*] Intelligence Pipeline Stack: [Regime] -> [Structure] -> [Displacement]
+2026-05-25 16:53:43,313 - INFO - [*] Connecting to live exchange WebSocket feed...
+2026-05-25 16:53:43,923 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-25 16:54:00,359 - INFO - 
+⚡ [CANDLE CLOSED] | 16:53:00 | O: $77720.96 | H: $77720.97 | L: $77700.00 | C: $77700.82
+2026-05-25 16:54:00,376 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-25 16:54:00,385 - INFO - ❄️ [DISPLACEMENT VALIDATION] Velocity: COMPRESSED | Body Ratio: 0.89x (Threshold required: 1.50x)
+2026-05-25 16:54:00,386 - INFO - [MEMORY] Current Stateful Data Window: 50/50 bars tracked.
+2026-05-25 16:55:00,274 - INFO - 
+⚡ [CANDLE CLOSED] | 16:54:00 | O: $77700.82 | H: $77705.47 | L: $77700.82 | C: $77705.47
+2026-05-25 16:55:00,292 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-25 16:55:00,298 - INFO - ❄️ [DISPLACEMENT VALIDATION] Velocity: COMPRESSED | Body Ratio: 0.19x (Threshold required: 1.50x)
+2026-05-25 16:55:00,298 - INFO - [MEMORY] Current Stateful Data Window: 50/50 bars tracked.

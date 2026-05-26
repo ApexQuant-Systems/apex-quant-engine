@@ -1,0 +1,367 @@
+2026-05-26 13:56:25,869 - INFO - [*] Bootstrapping state memory matrix via historical REST API...
+2026-05-26 13:56:26,388 - INFO - [+] Memory warm-up complete. Seeded 49 structural candles instantly.
+2026-05-26 13:56:26,396 - INFO - 
+==============================================
+2026-05-26 13:56:26,396 - INFO -    SYSTEM ACTIVE: LIVE PAPER EXECUTION v1.7   
+2026-05-26 13:56:26,396 - INFO - ==============================================
+2026-05-26 13:56:27,260 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-26 13:56:59,586 - INFO - 
+⚡ [CANDLE CLOSED] | 13:56:00 | O: $77283.57 | H: $77304.45 | L: $77270.00 | C: $77304.45
+2026-05-26 13:56:59,623 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 13:56:59,627 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.39x
+2026-05-26 13:56:59,628 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 13:57:59,678 - INFO - 
+⚡ [CANDLE CLOSED] | 13:57:00 | O: $77304.45 | H: $77304.45 | L: $77247.61 | C: $77284.40
+2026-05-26 13:57:59,693 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 13:57:59,697 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.41x
+2026-05-26 13:57:59,697 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 13:58:43,107 - INFO - [*] Bootstrapping state memory matrix via historical REST API...
+2026-05-26 13:58:43,580 - INFO - [+] Memory warm-up complete. Seeded 49 structural candles instantly.
+2026-05-26 13:58:43,583 - INFO - 
+==============================================
+2026-05-26 13:58:43,583 - INFO -    SYSTEM ACTIVE: LIVE PAPER EXECUTION v1.7   
+2026-05-26 13:58:43,583 - INFO - ==============================================
+2026-05-26 13:58:44,538 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-26 13:58:59,869 - INFO - 
+⚡ [CANDLE CLOSED] | 13:58:00 | O: $77240.01 | H: $77240.01 | L: $77231.55 | C: $77231.55
+2026-05-26 13:58:59,884 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 13:58:59,888 - INFO - ⚠️ [INTERCEPT ACTIVE] Forcing manual test authorization code state...
+2026-05-26 13:58:59,888 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: GRANTED
+2026-05-26 13:58:59,889 - INFO - 🔥 [VIRTUAL CAP TRADE PLACED] Side: LONG | Entry: $77231.55 | SL: $77175.09 | TP: $77457.41
+2026-05-26 13:59:59,960 - INFO - 
+⚡ [CANDLE CLOSED] | 13:59:00 | O: $77231.55 | H: $77231.55 | L: $77200.00 | C: $77219.99
+2026-05-26 13:59:59,975 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 13:59:59,979 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:01:00,069 - INFO - 
+⚡ [CANDLE CLOSED] | 14:00:00 | O: $77231.56 | H: $77266.67 | L: $77192.00 | C: $77192.00
+2026-05-26 14:01:00,081 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:01:00,087 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:01:59,388 - INFO - 
+⚡ [CANDLE CLOSED] | 14:01:00 | O: $77192.00 | H: $77279.99 | L: $77192.00 | C: $77271.44
+2026-05-26 14:01:59,401 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:01:59,405 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 14:02:59,443 - INFO - 
+⚡ [CANDLE CLOSED] | 14:02:00 | O: $77271.45 | H: $77272.01 | L: $77200.01 | C: $77200.01
+2026-05-26 14:02:59,458 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:02:59,462 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 14:03:12,140 - INFO - 
+💵 [TRADE CLOSED] Reason: STOP_LOSS | Exit Price: $77167.53 | PnL: $-100.00 | Balance: $9900.00
+
+2026-05-26 14:03:59,569 - INFO - 
+⚡ [CANDLE CLOSED] | 14:03:00 | O: $77200.01 | H: $77238.65 | L: $77167.53 | C: $77238.65
+2026-05-26 14:03:59,584 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:03:59,589 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:04:59,783 - INFO - 
+⚡ [CANDLE CLOSED] | 14:04:00 | O: $77238.65 | H: $77238.65 | L: $77188.00 | C: $77188.00
+2026-05-26 14:04:59,799 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:04:59,803 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:07:00,059 - INFO - [*] Bootstrapping state memory matrix via historical REST API...
+2026-05-26 14:07:00,622 - INFO - [+] Memory warm-up complete. Seeded 49 structural candles instantly.
+2026-05-26 14:07:00,629 - INFO - 
+==============================================
+2026-05-26 14:07:00,629 - INFO -    SYSTEM ACTIVE: DB STATE PERSISTENCE v1.8   
+2026-05-26 14:07:00,629 - INFO - ==============================================
+2026-05-26 14:07:02,246 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-26 14:07:59,403 - INFO - 
+⚡ [CANDLE CLOSED] | 14:07:00 | O: $77238.92 | H: $77255.36 | L: $77238.92 | C: $77255.35
+2026-05-26 14:07:59,423 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:07:59,426 - INFO - ⚠️ [INTERCEPT ACTIVE] Forcing manual test authorization code state...
+2026-05-26 14:07:59,427 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: GRANTED
+2026-05-26 14:07:59,427 - INFO - 🔥 [VIRTUAL CAP TRADE PLACED] Side: LONG | Entry: $77255.36 | SL: $77201.70 | TP: $77469.99
+2026-05-26 14:07:59,436 - INFO - 💾 [DATABASE SYNC] Trade entry logged securely. Local Row Key ID assigned: 1
+2026-05-26 14:08:43,088 - INFO - 
+💾 [DATABASE SYNC] Trade ID 1 committed permanently to local storage.
+2026-05-26 14:08:43,089 - INFO - 💵 [TRADE CLOSED] Reason: STOP_LOSS | Exit Price: $77199.01 | PnL: $-100.00
+
+2026-05-26 14:08:59,792 - INFO - 
+⚡ [CANDLE CLOSED] | 14:08:00 | O: $77255.36 | H: $77270.95 | L: $77197.43 | C: $77210.00
+2026-05-26 14:08:59,813 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:08:59,817 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:09:59,809 - INFO - 
+⚡ [CANDLE CLOSED] | 14:09:00 | O: $77210.01 | H: $77245.67 | L: $77202.00 | C: $77245.67
+2026-05-26 14:09:59,821 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:09:59,829 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:13:14,438 - INFO - [*] Bootstrapping state memory matrix via historical REST API...
+2026-05-26 14:13:14,888 - INFO - [+] Memory warm-up complete. Seeded 49 structural candles instantly.
+2026-05-26 14:13:14,888 - INFO - [*] Executing infrastructure state integrity audit...
+2026-05-26 14:13:14,889 - INFO - [+] System integrity nominal. No unlogged exposure detected.
+2026-05-26 14:13:14,891 - INFO - 
+==============================================
+2026-05-26 14:13:14,891 - INFO -    SYSTEM ACTIVE: CRASH SURVIVABILITY v1.9   
+2026-05-26 14:13:14,891 - INFO - ==============================================
+2026-05-26 14:13:15,582 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-26 14:13:59,605 - INFO - 
+⚡ [CANDLE CLOSED] | 14:13:00 | O: $77326.92 | H: $77372.01 | L: $77310.62 | C: $77365.45
+2026-05-26 14:13:59,629 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:13:59,635 - INFO - ⚠️ [INTERCEPT ACTIVE] Forcing manual test authorization code state...
+2026-05-26 14:13:59,635 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: GRANTED
+2026-05-26 14:13:59,636 - INFO - 🔥 [VIRTUAL CAP TRADE PLACED] Side: LONG | Entry: $77365.45 | SL: $77318.40 | TP: $77553.65
+2026-05-26 14:13:59,645 - INFO - 💾 [DATABASE SYNC] Trade entry logged securely. Local Row Key ID assigned: 2
+2026-05-26 14:14:59,724 - INFO - 
+⚡ [CANDLE CLOSED] | 14:14:00 | O: $77365.45 | H: $77410.51 | L: $77346.00 | C: $77410.51
+2026-05-26 14:14:59,746 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:14:59,750 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:15:59,854 - INFO - 
+⚡ [CANDLE CLOSED] | 14:15:00 | O: $77411.67 | H: $77416.81 | L: $77364.25 | C: $77364.25
+2026-05-26 14:15:59,867 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:15:59,871 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:24:06,472 - INFO - [*] Bootstrapping state memory matrix via historical REST API...
+2026-05-26 14:24:06,865 - INFO - [+] Memory warm-up complete. Seeded 49 structural candles instantly.
+2026-05-26 14:24:06,865 - INFO - [*] Executing infrastructure state integrity audit...
+2026-05-26 14:24:06,866 - INFO - 
+⚠️ [CRASH RECOVERY] Unfinalized position detected in database (Row Key ID: 2). Rehydrating state space...
+2026-05-26 14:24:06,867 - INFO - [+] Rehydration successful. Tracking LONG limits at entry price: $77365.45
+
+2026-05-26 14:24:06,873 - INFO - 
+==============================================
+2026-05-26 14:24:06,873 - INFO -    SYSTEM ACTIVE: ORGANIC MARKET SCOUT v2.0   
+2026-05-26 14:24:06,873 - INFO - ==============================================
+2026-05-26 14:24:06,873 - INFO - [*] Intelligence Pipeline: Full Autonomy Engaged. Intercepts Deactivated.
+2026-05-26 14:24:07,695 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-26 14:24:08,584 - INFO - 
+💾 [DATABASE SYNC] Trade ID 2 committed permanently to local storage.
+2026-05-26 14:24:08,585 - INFO - 💵 [TRADE CLOSED] Reason: TAKE_PROFIT | Exit Price: $77837.99 | PnL: $400.00
+
+2026-05-26 14:24:59,959 - INFO - 
+⚡ [CANDLE CLOSED] | 14:24:00 | O: $77837.99 | H: $77870.00 | L: $77768.90 | C: $77788.36
+2026-05-26 14:25:00,007 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:25:00,012 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.76x
+2026-05-26 14:25:00,012 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:25:59,325 - INFO - 
+⚡ [CANDLE CLOSED] | 14:25:00 | O: $77788.36 | H: $77980.38 | L: $77788.36 | C: $77962.00
+2026-05-26 14:25:59,342 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:25:59,347 - INFO - ⚡ [DISPLACEMENT] Quality: QUALIFIED | Ratio: 2.89x
+2026-05-26 14:25:59,347 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 14:26:59,368 - INFO - 
+⚡ [CANDLE CLOSED] | 14:26:00 | O: $77954.68 | H: $78079.99 | L: $77930.00 | C: $78018.21
+2026-05-26 14:26:59,380 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:26:59,385 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.76x
+2026-05-26 14:26:59,385 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:27:59,532 - INFO - 
+⚡ [CANDLE CLOSED] | 14:27:00 | O: $78022.01 | H: $78079.99 | L: $78022.01 | C: $78040.01
+2026-05-26 14:27:59,540 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:27:59,543 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.22x
+2026-05-26 14:27:59,543 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:28:59,853 - INFO - 
+⚡ [CANDLE CLOSED] | 14:28:00 | O: $78040.00 | H: $78065.93 | L: $77936.72 | C: $77936.72
+2026-05-26 14:28:59,869 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:28:59,873 - INFO - ⚡ [DISPLACEMENT] Quality: QUALIFIED | Ratio: 1.54x
+2026-05-26 14:28:59,873 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 14:30:00,003 - INFO - 
+⚡ [CANDLE CLOSED] | 14:29:00 | O: $77941.02 | H: $77990.91 | L: $77927.33 | C: $77958.41
+2026-05-26 14:30:00,016 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:30:00,019 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.21x
+2026-05-26 14:30:00,020 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:31:00,072 - INFO - 
+⚡ [CANDLE CLOSED] | 14:30:00 | O: $77958.40 | H: $77996.09 | L: $77859.97 | C: $77859.97
+2026-05-26 14:31:00,085 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:31:00,089 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 1.31x
+2026-05-26 14:31:00,089 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:31:59,422 - INFO - 
+⚡ [CANDLE CLOSED] | 14:31:00 | O: $77846.25 | H: $77846.25 | L: $77714.63 | C: $77728.00
+2026-05-26 14:31:59,437 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:31:59,440 - INFO - ⚡ [DISPLACEMENT] Quality: QUALIFIED | Ratio: 1.97x
+2026-05-26 14:31:59,440 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 14:34:21,995 - INFO - [*] Bootstrapping state memory matrix via historical REST API...
+2026-05-26 14:34:22,470 - INFO - [+] Memory warm-up complete. Seeded 49 structural candles instantly.
+2026-05-26 14:34:22,470 - INFO - [*] Executing infrastructure state integrity audit...
+2026-05-26 14:34:22,471 - INFO - [+] System integrity nominal. No unlogged exposure detected.
+2026-05-26 14:34:22,477 - INFO - 
+==============================================
+2026-05-26 14:34:22,477 - INFO -    SYSTEM ACTIVE: ORGANIC MARKET SCOUT v2.0   
+2026-05-26 14:34:22,478 - INFO - ==============================================
+2026-05-26 14:34:22,478 - INFO - [*] Intelligence Pipeline: Full Autonomy Engaged. Intercepts Deactivated.
+2026-05-26 14:34:23,323 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-26 14:35:00,423 - INFO - 
+⚡ [CANDLE CLOSED] | 14:34:00 | O: $77586.01 | H: $77590.66 | L: $77526.12 | C: $77561.27
+2026-05-26 14:35:00,456 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:35:00,460 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.33x
+2026-05-26 14:35:00,461 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:36:00,060 - INFO - 
+⚡ [CANDLE CLOSED] | 14:35:00 | O: $77562.25 | H: $77576.47 | L: $77488.00 | C: $77488.00
+2026-05-26 14:36:00,072 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:36:00,076 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.98x
+2026-05-26 14:36:00,076 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:36:59,402 - INFO - 
+⚡ [CANDLE CLOSED] | 14:36:00 | O: $77477.06 | H: $77520.29 | L: $77373.45 | C: $77388.00
+2026-05-26 14:36:59,409 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:36:59,411 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 1.3x
+2026-05-26 14:36:59,411 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 14:37:59,510 - INFO - 
+⚡ [CANDLE CLOSED] | 14:37:00 | O: $77388.01 | H: $77405.91 | L: $77286.00 | C: $77290.01
+2026-05-26 14:37:59,527 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:37:59,532 - INFO - ⚡ [DISPLACEMENT] Quality: QUALIFIED | Ratio: 1.58x
+2026-05-26 14:37:59,532 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 14:38:59,638 - INFO - 
+⚡ [CANDLE CLOSED] | 14:38:00 | O: $77290.01 | H: $77303.99 | L: $77107.14 | C: $77156.36
+2026-05-26 14:38:59,650 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 14:38:59,655 - INFO - ⚡ [DISPLACEMENT] Quality: QUALIFIED | Ratio: 2.21x
+2026-05-26 14:38:59,656 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 15:21:33,624 - INFO - [*] Bootstrapping state memory matrix via historical REST API...
+2026-05-26 15:21:34,168 - INFO - [+] Memory warm-up complete. Seeded 49 structural candles instantly.
+2026-05-26 15:21:34,168 - INFO - [*] Executing infrastructure state integrity audit...
+2026-05-26 15:21:34,169 - INFO - [+] System integrity nominal. No unlogged exposure detected.
+2026-05-26 15:21:34,177 - INFO - 
+==============================================
+2026-05-26 15:21:34,177 - INFO -    SYSTEM ACTIVE: ORGANIC MARKET SCOUT v2.0   
+2026-05-26 15:21:34,177 - INFO - ==============================================
+2026-05-26 15:21:34,177 - INFO - [*] Intelligence Pipeline: Full Autonomy Engaged. Intercepts Deactivated.
+2026-05-26 15:21:34,857 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-26 15:21:59,508 - INFO - 
+⚡ [CANDLE CLOSED] | 15:21:00 | O: $76736.60 | H: $76736.93 | L: $76722.22 | C: $76736.93
+2026-05-26 15:21:59,535 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:21:59,539 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.01x
+2026-05-26 15:21:59,539 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:22:59,709 - INFO - 
+⚡ [CANDLE CLOSED] | 15:22:00 | O: $76736.93 | H: $76736.93 | L: $76606.01 | C: $76619.22
+2026-05-26 15:22:59,760 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:22:59,767 - INFO - ⚡ [DISPLACEMENT] Quality: QUALIFIED | Ratio: 4.78x
+2026-05-26 15:22:59,767 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 15:23:59,878 - INFO - 
+⚡ [CANDLE CLOSED] | 15:23:00 | O: $76620.01 | H: $76715.33 | L: $76580.64 | C: $76715.33
+2026-05-26 15:23:59,896 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:23:59,900 - INFO - ⚡ [DISPLACEMENT] Quality: QUALIFIED | Ratio: 2.02x
+2026-05-26 15:23:59,900 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 15:24:29,726 - INFO - [*] Bootstrapping state memory matrix via historical REST API...
+2026-05-26 15:24:30,299 - INFO - [+] Memory warm-up complete. Seeded 49 structural candles instantly.
+2026-05-26 15:24:30,299 - INFO - [*] Executing infrastructure state integrity audit...
+2026-05-26 15:24:30,300 - INFO - [+] System integrity nominal. No unlogged exposure detected.
+2026-05-26 15:24:30,307 - INFO - 
+==============================================
+2026-05-26 15:24:30,308 - INFO -    SYSTEM ACTIVE: ORGANIC MARKET SCOUT v2.0   
+2026-05-26 15:24:30,308 - INFO - ==============================================
+2026-05-26 15:24:30,308 - INFO - [*] Intelligence Pipeline: Full Autonomy Engaged. Intercepts Deactivated.
+2026-05-26 15:24:31,310 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-26 15:25:00,036 - INFO - 
+⚡ [CANDLE CLOSED] | 15:24:00 | O: $76678.01 | H: $76727.91 | L: $76678.01 | C: $76706.43
+2026-05-26 15:25:00,037 - INFO - 
+⚡ [CANDLE CLOSED] | 15:24:00 | O: $76715.32 | H: $76727.91 | L: $76650.00 | C: $76706.43
+2026-05-26 15:25:00,069 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:25:00,073 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:25:00,073 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.15x
+2026-05-26 15:25:00,073 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:25:00,077 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.37x
+2026-05-26 15:25:00,077 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:25:59,250 - INFO - 
+⚡ [CANDLE CLOSED] | 15:25:00 | O: $76706.42 | H: $76760.00 | L: $76700.00 | C: $76760.00
+2026-05-26 15:25:59,250 - INFO - 
+⚡ [CANDLE CLOSED] | 15:25:00 | O: $76706.42 | H: $76760.00 | L: $76700.00 | C: $76760.00
+2026-05-26 15:25:59,271 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:25:59,273 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:25:59,275 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.74x
+2026-05-26 15:25:59,276 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:25:59,276 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 1.03x
+2026-05-26 15:25:59,277 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:26:59,426 - INFO - 
+⚡ [CANDLE CLOSED] | 15:26:00 | O: $76756.00 | H: $76756.01 | L: $76739.01 | C: $76743.30
+2026-05-26 15:26:59,439 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:26:59,444 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.23x
+2026-05-26 15:26:59,444 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:27:21,489 - INFO - [*] Bootstrapping state memory matrix via historical REST API...
+2026-05-26 15:27:22,064 - INFO - [+] Memory warm-up complete. Seeded 49 structural candles instantly.
+2026-05-26 15:27:22,064 - INFO - [*] Executing infrastructure state integrity audit...
+2026-05-26 15:27:22,066 - INFO - [+] System integrity nominal. No unlogged exposure detected.
+2026-05-26 15:27:22,074 - INFO - 
+==============================================
+2026-05-26 15:27:22,074 - INFO -    SYSTEM ACTIVE: ORGANIC MARKET SCOUT v2.0   
+2026-05-26 15:27:22,075 - INFO - ==============================================
+2026-05-26 15:27:22,075 - INFO - [*] Intelligence Pipeline: Full Autonomy Engaged. Intercepts Deactivated.
+2026-05-26 15:27:22,916 - INFO - [+] [CONNECTED] Network socket open. Processing market matrix.
+2026-05-26 15:27:59,618 - INFO - 
+⚡ [CANDLE CLOSED] | 15:27:00 | O: $76746.41 | H: $76746.42 | L: $76700.00 | C: $76700.01
+2026-05-26 15:27:59,641 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:27:59,646 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.82x
+2026-05-26 15:27:59,646 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:28:59,791 - INFO - 
+⚡ [CANDLE CLOSED] | 15:28:00 | O: $76700.00 | H: $76753.68 | L: $76700.00 | C: $76713.25
+2026-05-26 15:28:59,814 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:28:59,818 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.31x
+2026-05-26 15:28:59,818 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:29:59,974 - INFO - 
+⚡ [CANDLE CLOSED] | 15:29:00 | O: $76713.25 | H: $76713.25 | L: $76636.01 | C: $76644.01
+2026-05-26 15:29:59,993 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:29:59,996 - INFO - ⚡ [DISPLACEMENT] Quality: QUALIFIED | Ratio: 2.65x
+2026-05-26 15:29:59,996 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 15:30:59,218 - INFO - 
+⚡ [CANDLE CLOSED] | 15:30:00 | O: $76644.00 | H: $76693.86 | L: $76562.00 | C: $76613.98
+2026-05-26 15:30:59,235 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:30:59,239 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.79x
+2026-05-26 15:30:59,239 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:31:59,275 - INFO - 
+⚡ [CANDLE CLOSED] | 15:31:00 | O: $76613.98 | H: $76655.50 | L: $76357.18 | C: $76412.01
+2026-05-26 15:31:59,293 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:31:59,297 - INFO - ⚡ [DISPLACEMENT] Quality: QUALIFIED | Ratio: 5.88x
+2026-05-26 15:31:59,297 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 15:32:59,604 - INFO - 
+⚡ [CANDLE CLOSED] | 15:32:00 | O: $76411.88 | H: $76477.83 | L: $76391.98 | C: $76394.01
+2026-05-26 15:32:59,614 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:32:59,616 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.25x
+2026-05-26 15:32:59,616 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:33:59,975 - INFO - 
+⚡ [CANDLE CLOSED] | 15:33:00 | O: $76395.51 | H: $76473.11 | L: $76394.02 | C: $76454.00
+2026-05-26 15:33:59,994 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:33:59,997 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.88x
+2026-05-26 15:33:59,997 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:34:59,969 - INFO - 
+⚡ [CANDLE CLOSED] | 15:34:00 | O: $76454.00 | H: $76489.43 | L: $76435.21 | C: $76435.21
+2026-05-26 15:34:59,982 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:34:59,986 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.25x
+2026-05-26 15:34:59,987 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:35:59,132 - INFO - 
+⚡ [CANDLE CLOSED] | 15:35:00 | O: $76435.21 | H: $76454.79 | L: $76358.01 | C: $76432.99
+2026-05-26 15:35:59,144 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:35:59,148 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.03x
+2026-05-26 15:35:59,149 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:36:59,826 - INFO - 
+⚡ [CANDLE CLOSED] | 15:36:00 | O: $76433.00 | H: $76471.22 | L: $76383.89 | C: $76425.09
+2026-05-26 15:36:59,842 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:36:59,846 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.13x
+2026-05-26 15:36:59,846 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:38:00,025 - INFO - 
+⚡ [CANDLE CLOSED] | 15:37:00 | O: $76425.09 | H: $76476.48 | L: $76418.48 | C: $76432.01
+2026-05-26 15:38:00,035 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:38:00,038 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.33x
+2026-05-26 15:38:00,038 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:38:59,278 - INFO - 
+⚡ [CANDLE CLOSED] | 15:38:00 | O: $76432.01 | H: $76456.03 | L: $76398.01 | C: $76442.85
+2026-05-26 15:38:59,294 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:38:59,298 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.57x
+2026-05-26 15:38:59,298 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:39:59,425 - INFO - 
+⚡ [CANDLE CLOSED] | 15:39:00 | O: $76442.86 | H: $76450.00 | L: $76378.88 | C: $76449.99
+2026-05-26 15:39:59,437 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:39:59,440 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.76x
+2026-05-26 15:39:59,440 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:40:59,609 - INFO - 
+⚡ [CANDLE CLOSED] | 15:40:00 | O: $76450.00 | H: $76492.00 | L: $76365.00 | C: $76376.00
+2026-05-26 15:40:59,619 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:40:59,624 - INFO - ⚡ [DISPLACEMENT] Quality: QUALIFIED | Ratio: 10.57x
+2026-05-26 15:40:59,624 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 15:41:59,866 - INFO - 
+⚡ [CANDLE CLOSED] | 15:41:00 | O: $76380.90 | H: $76524.63 | L: $76380.90 | C: $76504.20
+2026-05-26 15:41:59,877 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:41:59,880 - INFO - ⚡ [DISPLACEMENT] Quality: QUALIFIED | Ratio: 5.77x
+2026-05-26 15:41:59,880 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 45/100 | Auth State: DENIED
+2026-05-26 15:43:00,041 - INFO - 
+⚡ [CANDLE CLOSED] | 15:42:00 | O: $76514.42 | H: $76563.98 | L: $76507.45 | C: $76532.10
+2026-05-26 15:43:00,049 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:43:00,052 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 0.4x
+2026-05-26 15:43:00,052 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:43:59,231 - INFO - 
+⚡ [CANDLE CLOSED] | 15:43:00 | O: $76532.10 | H: $76600.01 | L: $76532.10 | C: $76593.56
+2026-05-26 15:43:59,242 - INFO - 📈 [REGIME ANALYSIS] Environment: UNDETERMINED
+2026-05-26 15:43:59,245 - INFO - ⚡ [DISPLACEMENT] Quality: COMPRESSED | Ratio: 1.32x
+2026-05-26 15:43:59,245 - INFO - 🛡️ [DECISION ENGINE] Conviction Score: 15/100 | Auth State: DENIED
+2026-05-26 15:45:13,039 - INFO - [*] [BTCUSDT] Seeding state memory matrix via historical REST API...
+2026-05-26 15:45:13,592 - INFO - [+] [BTCUSDT] Warm-up complete. Hydrated 49 candles.
+2026-05-26 15:45:13,592 - INFO - [*] [ETHUSDT] Seeding state memory matrix via historical REST API...
+2026-05-26 15:45:13,931 - INFO - [+] [ETHUSDT] Warm-up complete. Hydrated 49 candles.
+2026-05-26 15:45:13,932 - INFO - [*] [SOLUSDT] Seeding state memory matrix via historical REST API...
+2026-05-26 15:45:14,226 - INFO - [+] [SOLUSDT] Warm-up complete. Hydrated 49 candles.
+2026-05-26 15:45:14,227 - INFO - 
+==================================================
+2026-05-26 15:45:14,227 - INFO -    SYSTEM ACTIVE: MULTI-ASSET ASYMMETRICAL SCOUT 
+2026-05-26 15:45:14,227 - INFO - ==================================================
+2026-05-26 15:45:15,138 - INFO - [+] [SOCKET CONNECTED] Active market data pipeline open for SOLUSDT
+2026-05-26 15:45:15,151 - INFO - [+] [SOCKET CONNECTED] Active market data pipeline open for BTCUSDT
+2026-05-26 15:45:15,155 - INFO - [+] [SOCKET CONNECTED] Active market data pipeline open for ETHUSDT
