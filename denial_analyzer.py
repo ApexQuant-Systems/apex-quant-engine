@@ -1,91 +1,105 @@
 import sqlite3
 import os
-import sys
-import pandas as pd
-from datetime import datetime
+from pathlib import Path
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(BASE_DIR, "storage", "apex_systems.db")
+DB_PATH = Path("./storage/apex_systems.db")
 
 class DenialAnalyticsEngine:
-    """Initializes and processes filter efficiency data for all rejected structural setups."""
     def __init__(self):
-        self.db_path = DB_PATH
-        self._bootstrap_denial_schema()
+        # Ensure the storage directory exists natively
+        DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+        self._init_db()
 
-    def _bootstrap_denial_schema(self):
-        """Creates the permanent denial database space without touching the trade journal table."""
-        conn = sqlite3.connect(self.db_path)
+    def _init_db(self):
+        """Initializes the structural ledger schema if it doesn't exist."""
+        conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         cursor.execute("""
-            CREATE TABLE IF NOT EXISTS denial_ledger (
+            CREATE TABLE IF NOT EXISTS denied_signals (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
-                symbol TEXT NOT NULL,
-                timestamp TEXT NOT NULL,
-                regime TEXT NOT NULL,
-                displacement_ratio REAL NOT NULL,
-                conviction_score INTEGER NOT NULL,
-                denial_reason TEXT NOT NULL,
-                price_at_denial REAL NOT NULL,
-                outcome_price_30m REAL,
-                outcome_price_4h REAL
+                timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+                symbol TEXT,
+                regime TEXT,
+                displacement REAL,
+                score REAL,
+                reason TEXT,
+                price REAL
             )
         """)
         conn.commit()
         conn.close()
 
     def log_denied_signal(self, symbol, regime, displacement, score, reason, price):
-        """Invoked by workers to record an infrastructure or logical rejection event."""
-        conn = sqlite3.connect(self.db_path)
+        """Persists a rejected execution signal into the cold-storage ledger."""
+        conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        cursor.execute("""
-            INSERT INTO denial_ledger (
-                symbol, timestamp, regime, displacement_ratio, conviction_score, denial_reason, price_at_denial
-            ) VALUES (?, ?, ?, ?, ?, ?, ?)
-        """, (symbol, timestamp, regime, displacement, score, reason, price))
-        conn.commit()
-        conn.close()
-        print(f"[💾 LOGGED] Centralized denial ledger updated for {symbol} | Reason: {reason}")
+        try:
+            cursor.execute("""
+                INSERT INTO denied_signals (symbol, regime, displacement, score, reason, price)
+                VALUES (?, ?, ?, ?, ?, ?)
+            """, (symbol, str(regime), float(displacement), float(score), str(reason), float(price)))
+            conn.commit()
+        except Exception as e:
+            print(f"[⚠️ LEDGER ERROR] Failed to write denial log: {e}")
+        finally:
+            conn.close()
 
-    def generate_efficiency_report(self):
-        """Computes statistical metrics determining if filters are protecting capital or suffocating edge."""
-        conn = sqlite3.connect(self.db_path)
-        df = pd.read_sql_query("SELECT * FROM denial_ledger", conn)
-        conn.close()
 
-        print("\n==================================================")
-        print("   APEX SYSTEMS: DENIAL MINING INTELLIGENCE MAP   ")
-        print("==================================================")
+def harvest_negative_space_metrics():
+    """Extracts high-signal risk insights from the persistent database."""
+    if not DB_PATH.exists():
+        print(f"[🛑 ERROR] Database ledger missing at {DB_PATH}. Run a backtest first.")
+        return
         
-        if df.empty:
-            print("[-] Ledger Clean Room Space Pristine: Awaiting forward denial logs.")
-            print("==================================================\n")
+    print("\n=====================================================================")
+    print("        APEX QUANT SYSTEMS — NEGATIVE-SPACE TELEMETRY REPORT        ")
+    print("=====================================================================")
+    
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    
+    try:
+        # Verify the target table exists inside the discovered storage file
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='denied_signals';")
+        if not cursor.fetchone():
+            print("[⚠️ EMPTY STATUS] The ledger exists, but no denial entries have been saved yet.")
             return
 
-        total_denials = len(df)
-        print(f" [*] Total Operational Denials Logged: {total_denials}")
-        print("--------------------------------------------------")
-        
-        print(" BY-REASON ATTRIBUTION ANALYSIS:")
-        for reason, group in df.groupby('denial_reason'):
-            percentage = (len(group) / total_denials) * 100
-            print(f" ├── [{percentage:.1f}%] {reason} ({len(group)} instances)")
+        # Metric Extraction 1: Total Rejections By Asset Ticker
+        print("\n[📊 ASSET REJECTION MATRIX]")
+        cursor.execute("""
+            SELECT symbol, COUNT(*), AVG(score), AVG(displacement) 
+            FROM denied_signals 
+            GROUP BY symbol
+        """)
+        print(f"{'Asset':<12} | {'Blocks':<10} | {'Avg Conviction':<16} | {'Avg Displacement'}")
+        print("-" * 65)
+        for row in cursor.fetchall():
+            print(f"{row[0]:<12} | {row[1]:<10} | {row[2]:<16.4f} | {row[3]:.4f}")
             
-        print("--------------------------------------------------")
-        print(" BY-REGIME FILTRATION PROFILE:")
-        for regime, group in df.groupby('regime'):
-            print(f" └── {regime:<16} : {len(group)} setups rejected")
-        print("==================================================\n")
+        # Metric Extraction 2: Rejections Sorted By Market Regime
+        print("\n[🧠 REGIME FILTER EFFICIENCY]")
+        cursor.execute("""
+            SELECT regime, COUNT(*), reason 
+            FROM denied_signals 
+            GROUP BY regime, reason
+        """)
+        print(f"{'Market Regime':<15} | {'Blocks':<10} | {'Primary Gate Failure Cause'}")
+        print("-" * 65)
+        for row in cursor.fetchall():
+            print(f"{row[0]:<15} | {row[1]:<10} | {row[2]}")
+            
+        # Metric Extraction 3: High-Value Edge Protection Summary
+        cursor.execute("SELECT COUNT(*) FROM denied_signals")
+        total_blocks = cursor.fetchone()[0]
+        print("\n---------------------------------------------------------------------")
+        print(f"[✓ VERDICT] System successfully suppressed {total_blocks} toxic entries across the timeline.")
+        print("=====================================================================\n")
+
+    except sqlite3.OperationalError as e:
+        print(f"[🛑 DATABASE ACCESS ERROR] {e}")
+    finally:
+        conn.close()
 
 if __name__ == "__main__":
-    analyzer = DenialAnalyticsEngine()
-    
-    # Run structural integration audit with sample mock denial inputs
-    print("[*] Running network test verification queries...")
-    analyzer.log_denied_signal("SOLUSDT", "HIGH_COMPRESSION", 0.42, 45, "Displacement filter minimum threshold failure", 132.40)
-    analyzer.log_denied_signal("BTCUSDT", "EXPANSION_BEAR", 1.85, 65, "Portfolio Max Risk Ceiling Block", 76450.00)
-    analyzer.log_denied_signal("ETHUSDT", "CHOCCY_COMPRESSION", 0.12, 20, "Low conviction scoring matrix denial", 2640.00)
-    
-    # Generate the analytics readout directly from the fresh disk lines
-    analyzer.generate_efficiency_report()
+    harvest_negative_space_metrics()

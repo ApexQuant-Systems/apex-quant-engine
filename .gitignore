@@ -20,3 +20,12 @@ infrastructure/incident_logs.txt
 # IDE Specific Configurations
 .vscode/
 .idea/
+data/
+storage/
+*.csv
+*.zip
+*.db
+*.sqlite
+.DS_Store
+__pycache__/
+*.pyc

@@ -52,5 +52,6 @@ class MacroStatisticalHarness:
 if __name__ == "__main__":
     target_crypto_matrix = ["BTCUSDT", "ETHUSDT", "SOLUSDT"]
     # Initialize the macro harness to extract truth over a deep 1,000-candle matrix window
-    harvest_controller = MacroStatisticalHarness(target_crypto_matrix, lookback_candles=1000)
+    harvest_controller = MacroStatisticalHarness(target_crypto_matrix, lookback_candles= None)
     harvest_controller.execute_global_harvest()
+
