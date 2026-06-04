@@ -1,31 +1,25 @@
-# API Credentials & Local Environment Secrets
-.env
-keys.py
-secrets/
+# Deep Data Vault Archives (DO NOT PUSH TO REMOTE SOURCE)
+data/
+*.csv
+*.log
 
-# Python Runtime Cache
+# Python Environment Overlays
 __pycache__/
 *.pyc
 *.pyo
-.pypy/
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+ENV/
 
-# Quantitative Data and Local Ledger Databases
-storage/*.db
-storage/*.json
-storage/cold_storage/
-infrastructure/heartbeat.txt
-infrastructure/supervisor_log.txt
-infrastructure/incident_logs.txt
-
-# IDE Specific Configurations
-.vscode/
-.idea/
-data/
-storage/
-*.csv
-*.zip
-*.db
-*.sqlite
+# System Context Overrides
 .DS_Store
-__pycache__/
-*.pyc
+.idea/
+.vscode/
+
+# Local Database & Runtime State Storage Engines
+storage/
+*.db
+*.json
+infrastructure/incident_logs.txt
