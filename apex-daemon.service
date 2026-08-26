@@ -1,0 +1,16 @@
+[Unit]
+Description=Apex Quant OS 24/7 Autonomous Execution Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=mrcn2
+WorkingDirectory=/home/mrcn2/apex_quant_system
+ExecStart=/usr/bin/python3 /home/mrcn2/apex_quant_system/live_execution_daemon.py
+Restart=always
+RestartSec=5
+StandardOutput=append:/home/mrcn2/apex_quant_system/logs/apex_runtime.log
+StandardError=append:/home/mrcn2/apex_quant_system/logs/apex_runtime.log
+
+[Install]
+WantedBy=multi-user.target
